@@ -40,4 +40,4 @@ def proxy(request):
   # establish the conenction
   conn = httplib.HTTPConnection(hostname, port)
 
-	return render(request, 'templates/output.html', ({}))
+	return render(request, 'mysite/output.html', ({}))
