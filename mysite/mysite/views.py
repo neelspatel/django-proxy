@@ -115,7 +115,8 @@ def proxy(request):
 
   #head, body, data = type = survey
 
-  response = render(request, 'mysite/output.html', ({"url": url, "content" : content}))
+  #response = render(request, 'mysite/output.html', ({"url": url, "content" : content}))
+  response = render(request, 'mysite/output.html', ({}))
 
   # modify response headers here
 
