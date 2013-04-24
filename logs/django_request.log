@@ -1,0 +1,265 @@
+2013-04-24 03:54:26,363 [WARNING] django.request: Not Found: /css/custom.css
+2013-04-24 03:54:26,380 [WARNING] django.request: Not Found: /img/info.png
+2013-04-24 03:54:26,395 [WARNING] django.request: Not Found: /img/imac.ico
+2013-04-24 03:54:26,420 [WARNING] django.request: Not Found: /img/nithin.jpg
+2013-04-24 03:54:26,435 [WARNING] django.request: Not Found: /img/info.png
+2013-04-24 03:54:26,865 [WARNING] django.request: Not Found: /img/imac.ico
+2013-04-24 03:54:26,953 [WARNING] django.request: Not Found: /favicon.ico
+2013-04-24 03:55:08,867 [WARNING] django.request: Not Found: /css/custom.css
+2013-04-24 03:55:08,879 [WARNING] django.request: Not Found: /img/info.png
+2013-04-24 03:55:08,903 [WARNING] django.request: Not Found: /img/imac.ico
+2013-04-24 03:55:08,958 [WARNING] django.request: Not Found: /img/info.png
+2013-04-24 03:55:08,972 [WARNING] django.request: Not Found: /img/imac.ico
+2013-04-24 03:55:09,014 [WARNING] django.request: Not Found: /img/nithin.jpg
+2013-04-24 03:55:09,366 [WARNING] django.request: Not Found: /favicon.ico
+2013-04-24 03:55:09,610 [WARNING] django.request: Not Found: /favicon.ico
+2013-04-24 03:56:16,879 [WARNING] django.request: Not Found: 0.docs.google.com:443
+2013-04-24 03:56:18,250 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:18,278 [WARNING] django.request: Not Found: plus.google.com:443
+2013-04-24 03:56:18,297 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:18,684 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:18,772 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:18,986 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:19,017 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:19,166 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:19,531 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:19,619 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:19,872 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:19,907 [WARNING] django.request: Not Found: http://google.com/
+2013-04-24 03:56:22,223 [WARNING] django.request: Not Found: http://notify1.dropbox.com:80/subscribe
+2013-04-24 03:56:25,504 [WARNING] django.request: Not Found: http://google.com/
+2013-04-24 03:56:25,825 [WARNING] django.request: Not Found: 0.drive.google.com:443
+2013-04-24 03:56:25,838 [WARNING] django.request: Not Found: 0.drive.google.com:443
+2013-04-24 03:56:25,844 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:25,851 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:25,856 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:25,862 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:25,939 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:26,202 [WARNING] django.request: Not Found: http://google.com/
+2013-04-24 03:56:27,185 [WARNING] django.request: Not Found: 0.docs.google.com:443
+2013-04-24 03:56:27,197 [WARNING] django.request: Not Found: 0.docs.google.com:443
+2013-04-24 03:56:27,202 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:38,018 [WARNING] django.request: Not Found: 0.docs.google.com:443
+2013-04-24 03:56:38,199 [WARNING] django.request: Not Found: 0.docs.google.com:443
+2013-04-24 03:56:39,157 [WARNING] django.request: Not Found: 0.drive.google.com:443
+2013-04-24 03:56:44,000 [WARNING] django.request: Not Found: 0.docs.google.com:443
+2013-04-24 03:56:44,013 [WARNING] django.request: Not Found: 0.docs.google.com:443
+2013-04-24 03:56:44,017 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:50,935 [WARNING] django.request: Not Found: 0.drive.google.com:443
+2013-04-24 03:56:52,253 [WARNING] django.request: Not Found: client-lb.dropbox.com:443
+2013-04-24 03:56:54,630 [WARNING] django.request: Not Found: 0.docs.google.com:443
+2013-04-24 03:56:55,533 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:55,538 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:56,272 [WARNING] django.request: Not Found: 0.drive.google.com:443
+2013-04-24 03:56:56,286 [WARNING] django.request: Not Found: 0.drive.google.com:443
+2013-04-24 03:56:56,297 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:56,304 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:56,310 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:56,338 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:56,347 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:56:56,465 [WARNING] django.request: Not Found: www.google.com:443
+2013-04-24 03:56:56,567 [WARNING] django.request: Not Found: http://127.0.0.1:8000/
+2013-04-24 03:56:58,468 [WARNING] django.request: Not Found: http://127.0.0.1:8000/
+2013-04-24 03:56:58,717 [WARNING] django.request: Not Found: http://127.0.0.1:8000/favicon.ico
+2013-04-24 03:57:01,464 [WARNING] django.request: Not Found: 0.docs.google.com:443
+2013-04-24 03:57:06,734 [WARNING] django.request: Not Found: 0.drive.google.com:443
+2013-04-24 03:57:08,031 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:57:10,283 [WARNING] django.request: Not Found: http://notify1.dropbox.com:80/subscribe
+2013-04-24 03:57:17,638 [WARNING] django.request: Not Found: 0.docs.google.com:443
+2013-04-24 03:57:20,949 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:57:24,899 [WARNING] django.request: Not Found: 0.drive.google.com:443
+2013-04-24 03:57:37,478 [WARNING] django.request: Not Found: ssl.gstatic.com:443
+2013-04-24 03:57:40,310 [WARNING] django.request: Not Found: client-lb.dropbox.com:443
+2013-04-24 03:57:40,320 [WARNING] django.request: Not Found: client-lb.dropbox.com:443
+2013-04-24 03:57:56,081 [WARNING] django.request: Not Found: /css/custom.css
+2013-04-24 03:57:56,088 [WARNING] django.request: Not Found: /img/info.png
+2013-04-24 03:57:56,112 [WARNING] django.request: Not Found: /img/imac.ico
+2013-04-24 03:57:56,198 [WARNING] django.request: Not Found: /img/nithin.jpg
+2013-04-24 03:57:56,204 [WARNING] django.request: Not Found: /img/info.png
+2013-04-24 03:57:56,213 [WARNING] django.request: Not Found: /img/imac.ico
+2013-04-24 03:57:56,626 [WARNING] django.request: Not Found: /favicon.ico
+2013-04-24 03:57:56,733 [WARNING] django.request: Not Found: /favicon.ico
+2013-04-24 04:05:28,404 [WARNING] django.request: Not Found: http://notify1.dropbox.com:80/subscribe
+2013-04-24 04:05:44,208 [WARNING] django.request: Not Found: http://www.godaddy.com/
+2013-04-24 04:05:44,591 [WARNING] django.request: Not Found: http://www.godaddy.com/favicon.ico
+2013-04-24 04:05:58,495 [WARNING] django.request: Not Found: client-lb.dropbox.com:443
+2013-04-24 04:05:58,505 [WARNING] django.request: Not Found: client-lb.dropbox.com:443
+2013-04-24 04:06:13,536 [WARNING] django.request: Not Found: http://notify1.dropbox.com:80/subscribe
+2013-04-24 04:06:16,471 [WARNING] django.request: Not Found: client63.dropbox.com:443
+2013-04-24 04:06:16,486 [WARNING] django.request: Not Found: d.dropbox.com:443
+2013-04-24 04:06:18,953 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:06:18,962 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:06:18,972 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:06:43,566 [WARNING] django.request: Not Found: client-lb.dropbox.com:443
+2013-04-24 04:06:43,575 [WARNING] django.request: Not Found: client-lb.dropbox.com:443
+2013-04-24 04:06:44,794 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:06:44,804 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:06:44,813 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:06:58,596 [WARNING] django.request: Not Found: http://notify1.dropbox.com:80/subscribe
+2013-04-24 04:07:07,094 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:07:07,104 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:07:07,113 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:07:14,497 [WARNING] django.request: Not Found: http://localhost:8000/
+2013-04-24 04:07:14,755 [WARNING] django.request: Not Found: http://localhost:8000/favicon.ico
+2013-04-24 04:07:18,589 [WARNING] django.request: Not Found: http://127.0.0.1:8000/
+2013-04-24 04:07:21,493 [WARNING] django.request: Not Found: http://127.0.0.1:8000/favicon.ico
+2013-04-24 04:07:23,080 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:23,241 [WARNING] django.request: Not Found: http://127.0.0.1/favicon.ico
+2013-04-24 04:07:24,357 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:24,444 [WARNING] django.request: Not Found: http://127.0.0.1/favicon.ico
+2013-04-24 04:07:25,236 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:25,409 [WARNING] django.request: Not Found: http://127.0.0.1/favicon.ico
+2013-04-24 04:07:25,736 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:25,871 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:25,925 [WARNING] django.request: Not Found: http://127.0.0.1/favicon.ico
+2013-04-24 04:07:26,096 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:26,156 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:26,220 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:26,227 [WARNING] django.request: Not Found: http://127.0.0.1/favicon.ico
+2013-04-24 04:07:26,331 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:26,477 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:26,557 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:26,702 [WARNING] django.request: Not Found: http://127.0.0.1/
+2013-04-24 04:07:27,076 [WARNING] django.request: Not Found: http://127.0.0.1/favicon.ico
+2013-04-24 04:07:28,628 [WARNING] django.request: Not Found: client-lb.dropbox.com:443
+2013-04-24 04:07:28,648 [WARNING] django.request: Not Found: client-lb.dropbox.com:443
+2013-04-24 04:07:29,744 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:07:29,754 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:07:29,762 [WARNING] django.request: Not Found: http://ocsp.entrust.net/
+2013-04-24 04:13:28,828 [WARNING] django.request: Not Found: /css/custom.css
+2013-04-24 04:13:28,831 [WARNING] django.request: Not Found: /img/imac.ico
+2013-04-24 04:13:28,832 [WARNING] django.request: Not Found: /img/info.png
+2013-04-24 04:13:29,690 [WARNING] django.request: Not Found: /img/nithin.jpg
+2013-04-24 04:13:29,700 [WARNING] django.request: Not Found: /img/info.png
+2013-04-24 04:13:29,714 [WARNING] django.request: Not Found: /img/imac.ico
+2013-04-24 04:13:31,724 [WARNING] django.request: Not Found: /favicon.ico
+2013-04-24 04:13:32,579 [WARNING] django.request: Not Found: /new
+2013-04-24 04:13:32,758 [WARNING] django.request: Not Found: /favicon.ico
+2013-04-24 04:13:36,878 [WARNING] django.request: Not Found: /new123123
+2013-04-24 04:13:37,160 [WARNING] django.request: Not Found: /favicon.ico
+2013-04-24 04:14:44,592 [WARNING] django.request: Not Found: http://notify1.dropbox.com:80/subscribe
+2013-04-24 04:14:48,209 [WARNING] django.request: Not Found: http://google.com/
+2013-04-24 04:14:48,640 [WARNING] django.request: Not Found: http://r.skimresources.com/api/
+2013-04-24 04:14:48,718 [WARNING] django.request: Not Found: http://r.skimresources.com/api/
+2013-04-24 04:15:06,057 [WARNING] django.request: Not Found: http://google.com/
+2013-04-24 04:15:06,218 [WARNING] django.request: Not Found: http://r.skimresources.com/api/
+2013-04-24 04:15:06,818 [WARNING] django.request: Not Found: http://google.com/
+2013-04-24 04:15:06,973 [WARNING] django.request: Not Found: http://r.skimresources.com/api/
+2013-04-24 04:15:07,143 [WARNING] django.request: Not Found: http://google.com/
+2013-04-24 04:15:07,304 [WARNING] django.request: Not Found: http://r.skimresources.com/api/
+2013-04-24 04:15:14,626 [WARNING] django.request: Not Found: client-lb.dropbox.com:443
+2013-04-24 04:15:14,636 [WARNING] django.request: Not Found: client-lb.dropbox.com:443
+2013-04-24 04:15:19,918 [WARNING] django.request: Not Found: http://in.getclicky.com/in.php
+2013-04-24 04:15:26,660 [WARNING] django.request: Not Found: http://notify1.dropbox.com:80/subscribe
+2013-04-24 04:37:35,592 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 5, in process_request
+    return mysite.views.proxy(request)
+AttributeError: 'module' object has no attribute 'views'
+2013-04-24 04:39:47,197 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 5, in process_request
+    return mysite.mysite.views.proxy(request)
+AttributeError: 'module' object has no attribute 'mysite'
+2013-04-24 04:39:47,569 [ERROR] django.request: Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 5, in process_request
+    return mysite.mysite.views.proxy(request)
+AttributeError: 'module' object has no attribute 'mysite'
+2013-04-24 04:40:50,396 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 3, in process_request
+    return mysite.views.proxy(request)
+NameError: global name 'mysite' is not defined
+2013-04-24 04:40:50,758 [ERROR] django.request: Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 3, in process_request
+    return mysite.views.proxy(request)
+NameError: global name 'mysite' is not defined
+2013-04-24 04:48:27,620 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+NameError: global name 'views' is not defined
+2013-04-24 04:48:28,246 [ERROR] django.request: Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+NameError: global name 'views' is not defined
+2013-04-24 04:48:41,389 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+NameError: global name 'views' is not defined
+2013-04-24 04:48:41,737 [ERROR] django.request: Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+NameError: global name 'views' is not defined
+2013-04-24 04:48:49,466 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 4, in process_request
+    return mysite.views.proxy(request)
+AttributeError: 'module' object has no attribute 'views'
+2013-04-24 04:49:53,500 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 4, in process_request
+    return self.views.proxy(request)
+AttributeError: 'custom_middleware' object has no attribute 'views'
+2013-04-24 04:49:53,913 [ERROR] django.request: Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 4, in process_request
+    return self.views.proxy(request)
+AttributeError: 'custom_middleware' object has no attribute 'views'
+2013-04-24 04:50:23,350 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 4, in process_request
+    return mysite.views.proxy(request)
+AttributeError: 'module' object has no attribute 'views'
+2013-04-24 04:53:00,374 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/custom_middleware/custom_middleware.py", line 4, in process_request
+    return mysite.views.proxy(request)
+AttributeError: 'module' object has no attribute 'views'
+2013-04-24 04:55:36,890 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 3, in process_request
+    return views.proxy(request)
+NameError: global name 'views' is not defined
+2013-04-24 04:55:37,264 [ERROR] django.request: Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 3, in process_request
+    return views.proxy(request)
+NameError: global name 'views' is not defined

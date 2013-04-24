@@ -4,6 +4,10 @@ import httplib2
 import re
 import urllib2
 import urlparse
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 HTML_REGEX = re.compile(r'((?:src|action|href)=["\'])/')
 JQUERY_REGEX = re.compile(r'(\$\.(?:get|post)\(["\'])/')
@@ -57,9 +61,10 @@ def clean_and_split(content):
   return (head, pre, post)
 
 
-
-
 def proxy(request):
+  logger.error("Error may start here")
+  logger.error(request)
+
   server  = request.META["HTTP_HOST"]
   path = request.get_full_path()
 
