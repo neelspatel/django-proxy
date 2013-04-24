@@ -90,7 +90,7 @@ def proxy(request):
   url = request.build_absolute_uri() 
   # get response and content from original destination
   h = httplib2.Http()
-  resp, content = h.request("http://ntumma.com", request.method, body = form_data, headers = request_headers) 
+  resp, content = h.request(url, request.method, body = form_data, headers = request_headers) 
   #print resp
 
   # need to figure out how to modify the headers
@@ -119,8 +119,8 @@ def proxy(request):
   # construct the response object from the template 
 
   #head, body, data = type = survey
-
-  response = render(request, 'mysite/output.html', ({"url": url, "content" : content}))
+  head, pre, post = clean_and_split(content)
+  response = render(request, 'mysite/output.html', ({"url": url, "head" : head, "pre": pre, "post": post}))
   #response = render(request, 'mysite/output.html', ({}))
 
   # modify response headers here

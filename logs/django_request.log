@@ -263,3 +263,349 @@ Traceback (most recent call last):
   File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 3, in process_request
     return views.proxy(request)
 NameError: global name 'views' is not defined
+2013-04-24 05:15:32,418 [ERROR] django.request: Internal Server Error: d.dropbox.com:443
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 93, in proxy
+    resp, content = h.request(url, request.method, body = form_data, headers = request_headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1588, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1336, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1278, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+ServerNotFoundError: Unable to find the server at d.dropbox.comd.dropbox.com
+2013-04-24 05:22:06,510 [ERROR] django.request: Internal Server Error: d.dropbox.com:443
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 93, in proxy
+    resp, content = h.request(url, request.method, body = form_data, headers = request_headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1588, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1336, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1278, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+ServerNotFoundError: Unable to find the server at d.dropbox.comd.dropbox.com
+2013-04-24 05:22:06,681 [ERROR] django.request: Internal Server Error: d.dropbox.com:443
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 93, in proxy
+    resp, content = h.request(url, request.method, body = form_data, headers = request_headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1588, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1336, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1278, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+ServerNotFoundError: Unable to find the server at d.dropbox.comd.dropbox.com
+2013-04-24 05:25:58,116 [ERROR] django.request: Internal Server Error: d.dropbox.com:443
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 93, in proxy
+    resp, content = h.request(url, request.method, body = form_data, headers = request_headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1588, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1336, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1278, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+ServerNotFoundError: Unable to find the server at d.dropbox.comd.dropbox.com
+2013-04-24 05:25:58,259 [ERROR] django.request: Internal Server Error: d.dropbox.com:443
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 93, in proxy
+    resp, content = h.request(url, request.method, body = form_data, headers = request_headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1588, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1336, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1278, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+ServerNotFoundError: Unable to find the server at d.dropbox.comd.dropbox.com
+2013-04-24 05:26:43,906 [ERROR] django.request: Internal Server Error: http://notify1.dropbox.com:80/subscribe
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 123, in proxy
+    response = render(request, 'mysite/output.html', ({"url": url, "content" : content}))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 328, in invalid_block_tag
+    raise self.error(token, "Invalid block tag: '%s'" % command)
+TemplateSyntaxError: Invalid block tag: 'import'
+2013-04-24 05:27:09,911 [ERROR] django.request: Internal Server Error: http://docs.python.org/tutorial/datastructures.html
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 123, in proxy
+    response = render(request, 'mysite/output.html', ({"url": url, "content" : content}))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 328, in invalid_block_tag
+    raise self.error(token, "Invalid block tag: '%s'" % command)
+TemplateSyntaxError: Invalid block tag: 'import'
+2013-04-24 05:27:11,035 [ERROR] django.request: Internal Server Error: http://docs.python.org/favicon.ico
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 123, in proxy
+    response = render(request, 'mysite/output.html', ({"url": url, "content" : content}))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 328, in invalid_block_tag
+    raise self.error(token, "Invalid block tag: '%s'" % command)
+TemplateSyntaxError: Invalid block tag: 'import'
+2013-04-24 05:28:23,770 [ERROR] django.request: Internal Server Error: http://docs.python.org/tutorial/datastructures.html
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 123, in proxy
+    response = render(request, 'mysite/output.html', ({"url": url, "content" : clean_and_split(content)}))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/defaulttags.py", line 498, in autoescape
+    nodelist = parser.parse(('endautoescape',))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 253, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 353, in compile_filter
+    return FilterExpression(token, self)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 570, in __init__
+    "from '%s'" % (token[upto:], token))
+TemplateSyntaxError: Could not parse the remainder: '[0]' from 'content[0]'
+2013-04-24 05:28:24,862 [ERROR] django.request: Internal Server Error: http://docs.python.org/favicon.ico
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 123, in proxy
+    response = render(request, 'mysite/output.html', ({"url": url, "content" : clean_and_split(content)}))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/defaulttags.py", line 498, in autoescape
+    nodelist = parser.parse(('endautoescape',))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 253, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 353, in compile_filter
+    return FilterExpression(token, self)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 570, in __init__
+    "from '%s'" % (token[upto:], token))
+TemplateSyntaxError: Could not parse the remainder: '[0]' from 'content[0]'
+2013-04-24 05:28:44,230 [ERROR] django.request: Internal Server Error: http://notify1.dropbox.com:80/subscribe
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 123, in proxy
+    response = render(request, 'mysite/output.html', ({"url": url, "content" : clean_and_split(content)}))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/defaulttags.py", line 498, in autoescape
+    nodelist = parser.parse(('endautoescape',))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 253, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 353, in compile_filter
+    return FilterExpression(token, self)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 570, in __init__
+    "from '%s'" % (token[upto:], token))
+TemplateSyntaxError: Could not parse the remainder: '[0]' from 'content[0]'
+2013-04-24 05:29:41,991 [ERROR] django.request: Internal Server Error: http://notify1.dropbox.com:80/subscribe
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 123, in proxy
+    response = render(request, 'mysite/output.html', ({"url": url, "content" : clean_and_split(content)}))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/defaulttags.py", line 498, in autoescape
+    nodelist = parser.parse(('endautoescape',))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 253, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 353, in compile_filter
+    return FilterExpression(token, self)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/template/base.py", line 570, in __init__
+    "from '%s'" % (token[upto:], token))
+TemplateSyntaxError: Could not parse the remainder: '[0]' from 'content[0]'
+2013-04-24 05:30:56,523 [ERROR] django.request: Internal Server Error: d.dropbox.com:443
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 93, in proxy
+    resp, content = h.request(url, request.method, body = form_data, headers = request_headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1588, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1336, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1278, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+ServerNotFoundError: Unable to find the server at d.dropbox.comd.dropbox.com
+2013-04-24 05:30:56,671 [ERROR] django.request: Internal Server Error: d.dropbox.com:443
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Django-1.5.1-py2.7.egg/django/core/handlers/base.py", line 92, in get_response
+    response = middleware_method(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/custom_middleware.py", line 4, in process_request
+    return views.proxy(request)
+  File "/Users/neel 1/Documents/Programming/django-proxy/mysite/mysite/views.py", line 93, in proxy
+    resp, content = h.request(url, request.method, body = form_data, headers = request_headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1588, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1336, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/Library/Python/2.7/site-packages/httplib2-0.7.6-py2.7.egg/httplib2/__init__.py", line 1278, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+ServerNotFoundError: Unable to find the server at d.dropbox.comd.dropbox.com
