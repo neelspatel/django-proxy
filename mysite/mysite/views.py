@@ -115,7 +115,7 @@ def proxy(request):
   #first change resource urls to absolute urls
   #root = url_for (".proxy_request", host = full_host)
   #urlparse.urljoin(url, link)
-  print content
+  #print content
   # construct the response object from the template 
 
   #head, body, data = type = survey
