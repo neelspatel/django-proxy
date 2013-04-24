@@ -28,6 +28,37 @@ def parse_host_port (h):
     host_port[1] = int(host_port[1])
     return host_port
 
+def clean_and_split(content):
+  #returns a list of [head,pre,post] without the doctype stuff
+
+  #relevant regexes
+  REMOVE_DOCTYPE = re.compile ( '(?P<doctype><!DOCTYPE((.|\n|\r)*?)\">)')
+  INSERT_AD = re.compile ('(?P<head>.*<\s*HEAD[^<]*>)(?P<pre>.*<\s*BODY[^<]*>)(?P<post>.*)', re.IGNORECASE | re.MULTILINE | re.DOTALL)
+
+  tmp = content
+  
+  #removes the doctype
+  try: 
+    tmp = re.sub(REMOVE_DOCTYPE, "", tmp)
+  except:
+    tmp = tmp  
+
+  #splits
+  try:
+    split = INSERT_AD.match(tmp)
+    head = split.group('head')
+    pre = split.group('pre')
+    post = split.group('post')
+  except:
+    head = "Error "
+    pre = "Error "
+    post = "Error "
+
+  return (head, pre, post)
+
+
+
+
 def proxy(request):
   server  = request.META["HTTP_HOST"]
   path = request.get_full_path()
@@ -79,9 +110,7 @@ def proxy(request):
   #first change resource urls to absolute urls
   #root = url_for (".proxy_request", host = full_host)
   urlparse.urljoin(url, link)
-  for regex in REGEXES:
-    content = regex.sub(r'\1%s',  % , content)
-  print content 
+  print content
   # construct the response object from the template 
 
   head, body, data = type = survey
