@@ -91,7 +91,7 @@ def proxy(request):
   # get response and content from original destination
   h = httplib2.Http()
   resp, content = h.request("http://ntumma.com", request.method, body = form_data, headers = request_headers) 
-  print resp
+  #print resp
 
   # need to figure out how to modify the headers
   #response_headers = Headers()
